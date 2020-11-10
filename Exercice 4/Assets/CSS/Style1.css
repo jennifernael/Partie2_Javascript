@@ -1,0 +1,145 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 365px;
+    width: 100%;
+    background-image: url("../IMG/header.jpg");
+    background-size: cover;
+    font-size: 120%;
+}
+
+h1 {
+    font-family: 'Chilanka', cursive;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;  
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    height: 60px;
+    background: rgb(184, 229, 243);
+ }
+.bouton1 {
+    padding: 1px;
+    border-radius: 12px;
+    background-color: rgb(243, 222, 102);
+}
+
+.bouton2 {
+    padding: 1px;
+    border-radius: 12px;
+    background-color: rgb(207, 124, 76); 
+}
+
+.bouton3 {
+    padding: 1px;
+    border-radius: 12px;
+    background-color: rgb(230, 212, 59);
+}
+
+.bouton4 {
+    padding: 1px;
+    border-radius: 12px;
+    background-color: rgb(36, 127, 163);
+}
+
+a {
+    text-decoration: none;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    background-color: rgb(241, 200, 146);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}
+
+#containerP {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}
+
+.containerE1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;4
+    padding: 20px;
+    margin: 20px;
+    height: 400px;
+    width: 100%;
+}
+
+.containerPE1 {
+    background-repeat: no-repeat; 
+}
+
+.containerE2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding: 20px;
+    height: 400px;
+    width: 100%;
+}
+
+.containerPE2 {
+    background-repeat: no-repeat; 
+}
+
+.containerE3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 400px;
+    width: 100%;
+}
+
+.containerPE3 {
+    background-repeat: no-repeat;
+}
+
+#image3 {
+    padding-top: 30px;
+    height: 240px;
+    width: auto;
+}
+
+@media screen and (max-width: 480px) {
+header {
+    width: 100%;
+}    
+ul {
+    align-items: center;
+    flex-flow: row wrap;
+    padding-left: 0;
+}
+.presentation {
+    flex-shrink: auto;
+}
+#containerP {
+    flex-flow: row wrap;
+}
+.containerE1, .containerE2, .containerE3, .containerPE1, .containerPE2, .containerPE3 {
+    display: block;
+}
+}

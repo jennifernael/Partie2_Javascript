@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/CSS/Style1.css">
+    <title>Partie 2 - Ex4 JavaScript</title>
+</head>
+<body>
+    <!-- Pour cet exercice, réutiliser le fichier HTML de Voyage & Co.
+Au chargement de la page, les 3 blocs ne doivent pas apparaitre. Les faire apparaitre au scroll de la page. -->
+
+    <!-- En-tête -->
+        <header>
+            <h1>
+                Voyage & Co
+            </h1>
+        </header>
+    <!-- Barre de navigation -->
+            <nav>
+                <ul>
+                    <li class="bouton1"><a href="#">Accueil</a></li>
+                    <li class="bouton2"><a href="#">Destination</a></li>
+                    <li class="bouton3"><a href="#">Réservation</a></li>
+                    <li class="bouton4"><a href="#">Contact</a></li>
+                    
+                    <li>
+                        <form action="#" method="GET">
+                        <label for="search"></label>
+                        <input type="search" name="search" id="search" placeholder="Rechercher" />
+                        <input type="button" value="search" ></form>
+                    </li>     
+                </ul>
+            </nav>
+    <!-- Presentation -->
+        <div class="presentation">
+            <h2>Voyage & Co, votre agence de voyage sur mesure</h2>
+            <p>
+                Au centre de Strasbourg à deux pas de la petite France, notre agence de voyage et ses 4 conseillers spécialistes 
+                vous accueillent dans un magnifique espace entièrement dédié aux voyages. 
+                Séjours courts ou longs, voyages à la carte, périples culturels, en individuel ou accompagné, quel que soit votre désir, 
+                vous trouverez ici une solution à votre mesure. Et entièrement sur mesure votre voyage sera celui que vous aurez décidé, pensé, rêvé.
+                Bien plus qu’une simple agence de voyage, Voyage & Co reflète parfaitement l’esprit de ceux qui
+                l’animent. Ouverte à tous les passionnés, elle devient lieu de rencontres et d’expression lors de soirées discussion avec des intervenants 
+                rigoureusement sélectionnés. N’hésitez pas à vous renseigner.
+            </p> 
+        </div>
+    <!-- Les 3 blocs -->
+        <div id="containerP">
+    
+            <div class="containerE1" id="containerPE1">
+                <div class="containerPE1">
+                    <p>
+                        <img src="Assets/IMG/Montagne.jpg" alt="À la montagne">
+                    </p>
+                </div>
+                <div>
+                    <h2>Détendez-vous à la montagne</h2>
+                    <p>
+                        Quoi de mieux que l’air vivifiant des sommets pour enfin lâcher prise le temps d’une 
+                        séance de spa en montagne, ou d’une tout autre activité placée sous le signe de la détente ?
+                    </p>
+                </div>
+            </div>
+    
+            <div class="containerE2" id="containerPE2">
+                <div class="containerPE2">
+                    <p>
+                        <img src="Assets/IMG/Tropiques.jpg" alt="Sous les Tropiques">
+                    </p>
+                </div>
+                <div>
+                    <h2>Partez sous le soleil des Tropiques</h2>
+                    <p>
+                        Qui ne rêve pas de vacances au soleil ? Plages paradisiaques en janvier, bains turquoise pendant 
+                        les vacances de la Toussaint ou sable chaud à Noël : Voyage & Co vous a sélectionné leurs meilleures 
+                        destinations. N'attendez plus !
+                    </p>
+                </div>
+            </div>    
+    
+            <div class="containerE3" id="containerPE3">
+                <div class="containerPE3">
+                    <p>
+                        <img id="image3" src="Assets/IMG/France.jpg" alt="En France">
+                    </p>
+                </div>
+                <div>
+                    <h2>Profitez des paysages de France</h2>
+                    <p>
+                        Vous recherchez les meilleures destinations de vacances en France ? Laissez-vous vous surprendre avec notre
+                        sélection d'endroits et de paysages d'exceptions, à voir au sein de l'hexagone !
+                    </p>
+                </div>
+            </div>
+    
+        </div>
+
+
+
+
+    <script type="text/javascript" src="Assets/js/script4.js"></script>
+    </body>
+</html>
